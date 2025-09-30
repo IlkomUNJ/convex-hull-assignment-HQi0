@@ -7,6 +7,7 @@ NIM : 1313623038
 Dalam penyelesaian tugas ini, saya menggunakn AI Gemini. Bantuan AI dimanfaatkan untuk membuat template canvas, memisahkan logika komputasi ke file baru, fixing error.
 Query :
 - "create qt6 code with drawing canvas, run button and clear button"
+- "explain the algorithm in pdf i sent"
 - "make my convex hull algorithm separate file"
 - error build screenshot
 - error code screenshot
