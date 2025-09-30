@@ -17,8 +17,8 @@ public:
     static HullResult fastConvexHull(const QVector<QPoint>& points);
 
 private:
-    // Helper function to determine the orientation of an ordered triplet (p, q, r).
     static double orientation(const QPointF &p, const QPointF &q, const QPointF &r);
 };
 
 #endif // CONVEXHULL_H
+
