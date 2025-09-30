@@ -34,7 +34,6 @@ HullResult ConvexHull::slowConvexHull(const QVector<QPoint>& points)
             for (int k = 0; k < n; ++k) {
                 if (k == i || k == j) continue;
 
-                // FIX: Counter is moved here to only count meaningful checks.
                 result.iterations++;
 
                 const QPoint& r = points[k];
@@ -112,3 +111,4 @@ HullResult ConvexHull::fastConvexHull(const QVector<QPoint>& points)
 
     return result;
 }
+
